@@ -1,0 +1,214 @@
+{
+  "name": "VENKATA SAI NADELLA",
+  "title": "FULL STACK DEVELOPER",
+  "profileImage": "images/profilepic.JPG",
+  "email": "reojefton@outlook.com",
+  "phone": "+15197228671",
+  "location": { "city": "Toronto", "province": "Ontario" },
+  "github": "https://github.com/reojefton",
+  "linkedin": "https://www.linkedin.com/in/reojefton",
+  "summary": "Adept Full Stack Developer with over 7 years of experience in Web and Database development. Have successfully led, managed and collaborated with teams to deliver high-quality solutions that meet clients’ needs and expectations. Have a passion for learning new skills, staying updated with the latest trends and implementing the best practices in my developer workflow.",
+  "skills": [
+    {
+      "title": "Front End Web Development",
+      "skills": ["React", "Redux", "HTML", "CSS", "JavaScript/ES6", "TypeScript", "jQuery", "Bootstrap", "Angular", "Shopify", "WordPress", "MaterialUI", "JSON", "XML", "SASS/SCSS", "Accessibility - WCAG 2.0+", "SEO", "Adobe Target", "Adobe Analytics"]
+    },
+    {
+      "title": "Back End Web Development",
+      "skills": ["Node.js", "ASP.NET core MVC", "C#", ".NET", "REST API", "Microservices", "OAuth", "Auth0"]
+    },
+    {
+      "title": "Web Frameworks",
+      "skills": ["Next.js", "MERN", "MEAN", "ASP.NET Core"]
+    },
+    {
+      "title": "Cloud Computing",
+      "skills": ["Microsoft Azure services like Azure Active Directory", "Load Balancer and Auto scale", "Web Services", "Edge functions and Blobs", "AWS services like EC2", "S3", "Aurora", "Batch", "Lambda"]
+    },
+    {
+      "title": "DevOps",
+      "skills": ["Azure DevOps", "Jenkins", "Docker", "Kubernetes", "CI/CD"]
+    },
+    {
+      "title": "Mobile Development",
+      "skills": ["React Native (Android, iOS and Windows)", "Android native", "Windows UWP/WinUI", "MAUI (Android, iOS and Windows)", "IDE - Visual Studio Code", "Visual Studio", "Android Studio"]
+    },
+    {
+      "title": "Database Development",
+      "skills": ["Microsoft SQL Server", "MySQL", "MongoDB", "SSRS", "SSIS", "Azure SQL", "PostgreSQL"]
+    },
+    {
+      "title": "Other Skills",
+      "skills": ["Agile and Waterfall SDLC methodologies", "Salesforce", "Test-Driven Development", "Git", "UI and UX Design and prototyping (Figma, Adobe XD and InVision)", "Project Management"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Epicor - Toronto, Canada",
+      "role": "Lead Product Developer | Full Stack | January 2024 - Present",
+      "projects": [
+        {
+          "name": "Field Service Management (FSM) web portal and MAUI app for Android and iOS",
+          "techStack": "ASP.NET Core MVC, jQuery, React, Azure, Microservices Architecture, REST API, SQL Server"
+        }
+      ],
+      "responsibilities": [
+        "Design, develop features and perform optimizations for FSM web site using ASP.NET MVC framework.",
+        "Analyze and implement detailed design specifications, provide feedback, and independently perform the work required from the design.",
+        "Analyze requirements and clarify scope of work tasks with Business Analysts and Product Managers.",
+        "Communicate with quality assurance to validate work delivered and work quality.",
+        "Review code and pull requests from other developers.",
+        "Perform accessibility and code optimizations based on evaluations to maintain web vitals.",
+        "Utilize Azure services for cloud-based application deployment, scaling, and monitoring.",
+        "Develop UI and implement features FSM MAUI mobile app for Android and iOS."
+      ]
+    },
+    {
+      "company": "Bell - Toronto, Canada",
+      "role": "Senior Full Stack Developer | November 2020 - December 2023",
+      "projects": [
+        {
+          "name": "Consumer sites for Bell Canada and Lucky Mobile, Internal CMS Web portal for Bell Canada",
+          "techStack": "React, jQuery, Node.js, .NET Core, Microservices Architecture, DevOps, REST API,SQL Server"
+        }
+      ],
+      "responsibilities": [
+        "Design and develop features in front end - pages, components and widgets using React,AngularJS, CSHTML and jQuery based on mockups.",
+        "Develop and optimize back-end services, web APIs and microservices using OpenAPI and ASP.NET Web API.",
+        "Scaling web services and enhancing performance and security of APIs.",
+        "Analyzing business requirements and proactively providing ideas to improve proposed solutions.",
+        "Ensure code quality through unit testing and automated functional testing in an agile environment.",
+        "Drive architecture and execute Bell technical strategy.",
+        "Project management using Salesforce CMS and Jira.",
+        "Consult with clients and other technology groups on issues, recommend advanced programming solutions and actively propose improvements.",
+        "Troubleshoot and debug production issues and provide timely resolutions.",
+        "Developing and refining CI/CD pipelines, participating in deployment and release activities."
+      ]
+    },
+    {
+      "company": "ISN Technologies - Waterloo, Canada",
+      "role": "Full Stack Developer - Team Lead | January 2019 - October 2020",
+      "projects": [
+        {
+          "name": "Now Management Studio",
+          "techStack": "React, Angular, Node.js, .NET Core, Microservices Architecture, REST API, SQL Server, MongoDB, AWS"
+        },
+        {
+          "name": "WARS - Data warehouse, data migration and Business Intelligence for Allianz Insurance",
+          "techStack": "C#, SQL Server, SSRS, SSIS, Azure DevOps, Power BI"
+        },
+        {
+          "name": "Shopify ecommerce site - Customize site to suite brand and add functionality using add-ons.",
+          "techStack": "Shopify"
+        }
+      ],
+      "responsibilities": [
+        "Develop, implement new features and maintain existing programs in both front-end using React and Angular.",
+        "Develop back-end services using Node.js, C#, ASP.NET Core SQL Server queries and stored procedures.",
+        "Work on REST APIs and microservices, securing and optimizing them.",
+        "Run DevOps operations like managing Azure boards, setting up repos and pipelines for build in Azure DevOps.",
+        "Design MS SQL tables, queries, stored procedures and optimize queries for better performance and efficiency.",
+        "Managed and supported the team of software engineering staff by organizing functional and technical sessions to ramp up the team skills.",
+        "Contributed to business development by identifying opportunities and working on tender preparation."
+      ]
+    },
+    {
+      "company": "NexGen Marketing Group - Waterloo, Canada",
+      "role": "Full Stack Developer - Project Lead | May 2018 - December 2018",
+      "projects": [
+        {
+          "name": "InstaROI",
+          "techStack": "ASP.NET core MVC, React, Microsoft Azure, SQL Server"
+        }
+      ],
+      "responsibilities": [
+        "Engage with stakeholders to gather requirements, delegate tasks, manage team and provide updates to client.",
+        "Design architecture, develop features (entire ASP.NET core MVC website and SQL database) and hosting in Azure (Azure app service, Blobs and Azure SQL)."
+      ]
+    },
+    {
+      "company": "Bizinfe - Nagercoil, India",
+      "role": "Intermediate Software Developer | May 2016 - September 2017",
+      "projects": [
+        {
+          "name": "General",
+          "techStack": "HTML, CSS, Bootstrap, Angular, Node.js, ASP .NET, JavaScript, jQuery, AJAX, SQL Server, MySQL"
+        }
+      ],
+      "responsibilities": [
+        "Create responsive websites for clients based on the requirements and work on Bizinfe website.",
+        "Design UI/UX mockups and wireframes, develop front end pages and components.",
+        "Work on API development, database design, writing queries and stored procedures.",
+        "Write scripts using Perl and Shell to automate tasks.",
+        "Code optimization, testing, integration and performance analysis."
+      ]
+    }
+  ],
+   "education": [
+    {
+      "degree": "Computer Application Security",
+      "institution": "Conestoga College - Kitchener, Canada",
+      "period": "May 2018 - December 2018"
+    },
+    {
+      "degree": "Computer Application Development",
+      "institution": "Conestoga College - Kitchener, Canada",
+      "period": "September 2017 - April 2018"
+    },
+    {
+      "degree": "Bachelor's in Engineering - Computer Science",
+      "institution": "National Engineering college - Kovilpatti, India",
+      "period": "June 2012 - May 2016"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Network Web App",
+      "description": "A full-featured social network web application.",
+      "techStack": "MERN stack, React, Redux, Node.js, MongoDB, Heroku, MaterialUI",
+      "link": "https://github.com/ReoJefton/ReoSocial"
+    },
+    {
+      "name": "Noorul Islam Polytechnic College Website",
+      "description": "Official website for Noorul Islam Polytechnic College.",
+      "techStack": "Next.js, Tailwind CSS, TypeScript",
+      "link": "https://nipc.in/"
+    },
+    {
+      "name": "InstaROI and Kinetic GPO PWA (NexGen Marketing Group)",
+      "description": "Progressive web apps for marketing and procurement.",
+      "techStack": "ASP.NET core MVC, React, Microsoft Azure, SQL Server",
+      "link": "https://github.com/ReoJefton/InstaROI-NetCoreWeb"
+    },
+    {
+      "name": "WellBeings",
+      "description": "Wellness tracking and management .NET Core Web App.",
+      "techStack": "C#, ASP.Net Core MVC, Entity Framework",
+      "link": "https://github.com/reojefton/WellBeings-NetCoreApp"
+    },
+    {
+      "name": "Now management Studio - CMS (ISN Technologies)",
+      "description": "Custom CMS for business management.",
+      "techStack": "React, Angular, Node.js, .NET Core, Microservices Architecture, REST API, SQL Server, MongoDB, AWS",
+      "link": ""
+    },
+    {
+      "name": "Web Portfolio",
+      "description": "Personal portfolio website.",
+      "techStack": "HTML, CSS, JS, GitHub Pages, PWA",
+      "link": "https://reojefton.github.io/PortfolioRJ/"
+    },
+    {
+      "name": "Conestoga Portal UWP App",
+      "description": "Access web portals and take notes with built-in password manager.",
+      "techStack": "C#, .NET Core, SQL Server",
+      "link": "https://www.microsoft.com/en-ca/p/conestoga-portal/9p45t4g9gqf3?activetab=pivot:overviewtab"
+    },
+    {
+      "name": "10Launcher",
+      "description": "Chromium extension for managing recently visited sites and favorites.",
+      "techStack": "React, HTML, CSS, Bootstrap, JavaScript, TypeScript",
+      "link": "https://microsoftedge.microsoft.com/addons/detail/10launcher/lohfjfafljfmninkapddiidjinilohkc"
+    }
+  ]
+}
