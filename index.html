@@ -19,6 +19,9 @@
         }
     </style> -->
     <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="downloadPage.js" defer></script>
 </head>
 
 <body>
@@ -30,16 +33,18 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">skills</a></li>
         <li class="right theme-toggle-flex"><button id="themeToggleBtn" class="theme-toggle-btn">🌙</button></li>
-        <li class="mobile-hidden"><a href="./home.html">HomeV2</a></li>
-        <li class="right mobile-hidden"><a href="./contact.html">Contact</a></li>
-        <li class="right mobile-hidden"><a href="./about.html">About</a></li>
+        <li class="mobile-hidden"><a href="./index2.html">HomeV2</a></li>
+        <li class="mobile-hidden"><a href="./home.html">HomeV3</a></li>
+        <li class="right mobile-hidden"><a href="./contact.html">Contact Me</a></li>
+        <li class="right mobile-hidden"><a href="./Venkata_sai_Nadella_Resume.pdf" download>Download Resume</a></li>
     </ul>
 
     <!-- Bottom navigation: only links with .bottom-mobile class are shown on mobile -->
     <ul class="bottomNav">
-        <li class="bottom-mobile"><a href="./home.html">HomeV2</a></li>
-        <li class="bottom-mobile"><a href="./about.html">About</a></li>
-        <li class="bottom-mobile"><a href="./contact.html">Contact</a></li>
+        <li class="bottom-mobile"><a href="./index2.html">HomeV2</a></li>
+        <li class="bottom-mobile"><a href="./home.html">HomeV3</a></li>
+        <li class="bottom-mobile"><a href="./Venkata_sai_Nadella_Resume.pdf" download>Download Resume</a></li>
+        <li class="bottom-mobile"><a href="./contact.html">Contact Me</a></li>
     </ul>
 
     <div id="parentDiv">
@@ -65,8 +70,8 @@
             <br>
             Mobile: <a href="tel:+16478291723">+16478291723</a>
             <br>Location: Toronto, Ontario
-            <br>GitHub: <a href="https://github.com/venkatnadella">Venkat Nadella</a>
-            <br>Linkedin: <a href="https://www.linkedin.com/in/venkata-sai-nadella/">Venkata Sai Nadella</a>
+            <br>GitHub: <a href="https://github.com/venkatnadella" target="_blank" rel="noopener">Venkat Nadella</a>
+            <br>Linkedin: <a href="https://www.linkedin.com/in/venkata-sai-nadella/" target="_blank" rel="noopener">Venkata Sai Nadella</a>
         </h3>
         <p>Dynamic professional with a strong foundation in mathematics, coding languages, and critical thinking, seeking 
 challenging opportunities. Proficient in visualization, analytics, and statistics, with a passion for learning new 
@@ -77,11 +82,10 @@ valuable skills and drive impactful results.
         <h4 id="education">EDUCATION</h4>
         <ul>
             <li><b>Post Graduate Diploma - Artificial Intelligence & Data Science</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>83.5%</b> <sub>(Dean's List)</sub>
-                <br>Loyalist College in Toronto - Toronto, Ontario&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;May 2023 - December 2024</p>
+                <br>Loyalist College in Toronto - Toronto, Ontario&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;May 2023 - December 2024
             </li>
             <li><b>Bachelor of Technology - Computer Science & Engineering</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>9.21 CGPA</b> <sub>(Best Outgoing Male in Academics)</sub>
                 <br>Seshadri Rao Gudlavalleru Engineering College - Gudlavalleru, India &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; August 2018 - April 2022
-                </p>
             </li>
         </ul>
         <h4 id="projects">PROJECTS</h4>
@@ -123,7 +127,7 @@ valuable skills and drive impactful results.
         <ul>
         <li><p><b>Phenom People - Hyderabad, India</b>
         <br>
-          <b>Product Development Engineer - I | June 2017 - April 2018</b>
+          <b>Product Development Engineer - I | February 2022 - May 2022</b>
         </p>
         <ul>
           <li>Handled tasks in backend development using Java language.</li>
@@ -133,7 +137,7 @@ valuable skills and drive impactful results.
         </li>
         <li><p><b>Smart Internz (Externship)</b>
           <br>
-          <b>AI & ML Intern | May 2017 - August 2017</b>
+          <b>AI & ML Intern | May 2019 - June 2019</b>
         </p>
         <ul>
           <li>Internship focused on AI & ML technologies.</li>
@@ -148,7 +152,7 @@ valuable skills and drive impactful results.
             <li><b>Front End Web Development -</b> HTML, CSS, JavaScript/ES6,jQuery,Bootstrap,
              WordPress, Wix, JSON, XML.
             </li>
-            <li><b>Back End Web Development -</b> Node.js, C#, .NET, REST API.</li>
+            <li><b>Back End Web Development -</b> Node.js, C#, REST API.</li>
             <li><b>Programming Languages -</b> Python, Java, C, C#, JavaScript/ES6, SQL, R, MATLAB,
                 HTML, CSS</li>
             <li><b>DevOps -</b> Jenkins, Docker, Kubernetes, CI/CD</li>
@@ -158,6 +162,8 @@ valuable skills and drive impactful results.
             <li><b>Other Skills -</b> Test-Driven Development,Git,UI
                 and UX Design and prototyping (Figma, Adobe XD), Project Management</li>
         </ul>
+
+        <!--<button id="downloadPdfBtn" >Download Resume</button>-->
 
         
     </div>
