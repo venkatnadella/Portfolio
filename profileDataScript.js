@@ -47,7 +47,7 @@ fetch('profileData.json')
         if (data.education && data.education.length > 0) {
             html += `<h4 id="education">EDUCATION</h4><ul>`;
             data.education.forEach(edu => {
-                html += `<li><b>${edu.degree}</b> - ${edu.specialization}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>${edu.grade}</b> <sub>${edu.remarks}</sub><br><b>${edu.institution}</b> | ${edu.period}</li>`;
+                html += `<li><b>${edu.degree}</b> - ${edu.specialization}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>${edu.grade}</b> <small><small>${edu.remarks}</small></small><br><b>${edu.institution}</b> | ${edu.period}</li>`;
             });
             html += `</ul>`;
         }
