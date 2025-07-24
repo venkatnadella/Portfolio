@@ -1,214 +1,166 @@
 {
   "name": "VENKATA SAI NADELLA",
-  "title": "FULL STACK DEVELOPER",
-  "profileImage": "images/profilepic.JPG",
-  "email": "reojefton@outlook.com",
-  "phone": "+15197228671",
+  "title": "Data Analyst/Engineer",
+  "profileImage": "assets/img/venkat_muskoka_image.jpg",
+  "email": "venkatasainadella85@gmail.com",
+  "phone": "+16478728327",
   "location": { "city": "Toronto", "province": "Ontario" },
-  "github": "https://github.com/reojefton",
-  "linkedin": "https://www.linkedin.com/in/reojefton",
-  "summary": "Adept Full Stack Developer with over 7 years of experience in Web and Database development. Have successfully led, managed and collaborated with teams to deliver high-quality solutions that meet clients’ needs and expectations. Have a passion for learning new skills, staying updated with the latest trends and implementing the best practices in my developer workflow.",
+  "github": "https://github.com/venkatnadella",
+  "linkedin": "https://www.linkedin.com/in/venkata-sai-nadella/",
+  "summary": "Dynamic professional with a strong foundation in mathematics, coding languages, and critical thinking, seeking challenging opportunities. Proficient in visualization, analytics, and statistics, with a passion for learning new technologies. Known for fostering great empathy and exhibiting strong team-playing behavior. Eager to contribute valuable skills and drive impactful results.",
   "skills": [
     {
       "title": "Front End Web Development",
-      "skills": ["React", "Redux", "HTML", "CSS", "JavaScript/ES6", "TypeScript", "jQuery", "Bootstrap", "Angular", "Shopify", "WordPress", "MaterialUI", "JSON", "XML", "SASS/SCSS", "Accessibility - WCAG 2.0+", "SEO", "Adobe Target", "Adobe Analytics"]
+      "skills": ["HTML", "CSS", "JavaScript/ES6","jQuery","Bootstrap","WordPress", "Wix", "JSON", "XML"]
     },
     {
       "title": "Back End Web Development",
-      "skills": ["Node.js", "ASP.NET core MVC", "C#", ".NET", "REST API", "Microservices", "OAuth", "Auth0"]
+      "skills": ["Node.js", "C#","REST API"]
     },
     {
-      "title": "Web Frameworks",
-      "skills": ["Next.js", "MERN", "MEAN", "ASP.NET Core"]
+      "title": "Programming Languages",
+      "skills": ["Python", "Java", "C", "C#", "JavaScript/ES6", "SQL", "R", "MATLAB", "HTML", "CSS"]
     },
     {
-      "title": "Cloud Computing",
-      "skills": ["Microsoft Azure services like Azure Active Directory", "Load Balancer and Auto scale", "Web Services", "Edge functions and Blobs", "AWS services like EC2", "S3", "Aurora", "Batch", "Lambda"]
+      "title": "Data Analysis and Visualization",
+      "skills": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI"]
     },
     {
       "title": "DevOps",
-      "skills": ["Azure DevOps", "Jenkins", "Docker", "Kubernetes", "CI/CD"]
+      "skills": [ "Jenkins", "Docker", "Kubernetes", "CI/CD"]
     },
     {
       "title": "Mobile Development",
-      "skills": ["React Native (Android, iOS and Windows)", "Android native", "Windows UWP/WinUI", "MAUI (Android, iOS and Windows)", "IDE - Visual Studio Code", "Visual Studio", "Android Studio"]
+      "skills": ["IDE - Visual Studio Code", "Visual Studio", "Android Studio"]
     },
     {
       "title": "Database Development",
-      "skills": ["Microsoft SQL Server", "MySQL", "MongoDB", "SSRS", "SSIS", "Azure SQL", "PostgreSQL"]
+      "skills": ["Microsoft SQL Server", "MySQL", "MongoDB", "Azure SQL", "PostgreSQL"]
     },
     {
       "title": "Other Skills",
-      "skills": ["Agile and Waterfall SDLC methodologies", "Salesforce", "Test-Driven Development", "Git", "UI and UX Design and prototyping (Figma, Adobe XD and InVision)", "Project Management"]
+      "skills": [ "Test-Driven Development", "Git", "UI and UX Design and prototyping (Figma, Adobe XD and InVision)", "Project Management"]
     }
   ],
   "experience": [
     {
-      "company": "Epicor - Toronto, Canada",
-      "role": "Lead Product Developer | Full Stack | January 2024 - Present",
-      "projects": [
-        {
-          "name": "Field Service Management (FSM) web portal and MAUI app for Android and iOS",
-          "techStack": "ASP.NET Core MVC, jQuery, React, Azure, Microservices Architecture, REST API, SQL Server"
-        }
-      ],
+      "company": "Phenom People",
+      "location": "Hyderabad, India",
+      "role": "Product Development Engineer 1",
+      "domain": "Back End Development",
+      "period": "February 2022 - May 2022",
       "responsibilities": [
-        "Design, develop features and perform optimizations for FSM web site using ASP.NET MVC framework.",
-        "Analyze and implement detailed design specifications, provide feedback, and independently perform the work required from the design.",
-        "Analyze requirements and clarify scope of work tasks with Business Analysts and Product Managers.",
-        "Communicate with quality assurance to validate work delivered and work quality.",
-        "Review code and pull requests from other developers.",
-        "Perform accessibility and code optimizations based on evaluations to maintain web vitals.",
-        "Utilize Azure services for cloud-based application deployment, scaling, and monitoring.",
-        "Develop UI and implement features FSM MAUI mobile app for Android and iOS."
+        "Handled tasks in backend development using Java language.",
+        "Performed user testing and UI checks.",
+        "Attended daily scrum meetings, grooming sessions, and sprint planning sessions.",
+        "Worked on bug fixes and enhancements in the existing codebase.",
+        "Collaborated with the team to ensure timely delivery of features and improvements."
       ]
     },
     {
-      "company": "Bell - Toronto, Canada",
-      "role": "Senior Full Stack Developer | November 2020 - December 2023",
-      "projects": [
-        {
-          "name": "Consumer sites for Bell Canada and Lucky Mobile, Internal CMS Web portal for Bell Canada",
-          "techStack": "React, jQuery, Node.js, .NET Core, Microservices Architecture, DevOps, REST API,SQL Server"
-        }
-      ],
+      "company": "Smart Internz (Externship)",
+      "location": "Gudlavalleru, India",
+      "role": "AI / ML Intern",
+      "domain": "AI & ML Engineer",
+      "period": "May 2019 - June 2019",
       "responsibilities": [
-        "Design and develop features in front end - pages, components and widgets using React,AngularJS, CSHTML and jQuery based on mockups.",
-        "Develop and optimize back-end services, web APIs and microservices using OpenAPI and ASP.NET Web API.",
-        "Scaling web services and enhancing performance and security of APIs.",
-        "Analyzing business requirements and proactively providing ideas to improve proposed solutions.",
-        "Ensure code quality through unit testing and automated functional testing in an agile environment.",
-        "Drive architecture and execute Bell technical strategy.",
-        "Project management using Salesforce CMS and Jira.",
-        "Consult with clients and other technology groups on issues, recommend advanced programming solutions and actively propose improvements.",
-        "Troubleshoot and debug production issues and provide timely resolutions.",
-        "Developing and refining CI/CD pipelines, participating in deployment and release activities."
-      ]
-    },
-    {
-      "company": "ISN Technologies - Waterloo, Canada",
-      "role": "Full Stack Developer - Team Lead | January 2019 - October 2020",
-      "projects": [
-        {
-          "name": "Now Management Studio",
-          "techStack": "React, Angular, Node.js, .NET Core, Microservices Architecture, REST API, SQL Server, MongoDB, AWS"
-        },
-        {
-          "name": "WARS - Data warehouse, data migration and Business Intelligence for Allianz Insurance",
-          "techStack": "C#, SQL Server, SSRS, SSIS, Azure DevOps, Power BI"
-        },
-        {
-          "name": "Shopify ecommerce site - Customize site to suite brand and add functionality using add-ons.",
-          "techStack": "Shopify"
-        }
-      ],
-      "responsibilities": [
-        "Develop, implement new features and maintain existing programs in both front-end using React and Angular.",
-        "Develop back-end services using Node.js, C#, ASP.NET Core SQL Server queries and stored procedures.",
-        "Work on REST APIs and microservices, securing and optimizing them.",
-        "Run DevOps operations like managing Azure boards, setting up repos and pipelines for build in Azure DevOps.",
-        "Design MS SQL tables, queries, stored procedures and optimize queries for better performance and efficiency.",
-        "Managed and supported the team of software engineering staff by organizing functional and technical sessions to ramp up the team skills.",
-        "Contributed to business development by identifying opportunities and working on tender preparation."
-      ]
-    },
-    {
-      "company": "NexGen Marketing Group - Waterloo, Canada",
-      "role": "Full Stack Developer - Project Lead | May 2018 - December 2018",
-      "projects": [
-        {
-          "name": "InstaROI",
-          "techStack": "ASP.NET core MVC, React, Microsoft Azure, SQL Server"
-        }
-      ],
-      "responsibilities": [
-        "Engage with stakeholders to gather requirements, delegate tasks, manage team and provide updates to client.",
-        "Design architecture, develop features (entire ASP.NET core MVC website and SQL database) and hosting in Azure (Azure app service, Blobs and Azure SQL)."
-      ]
-    },
-    {
-      "company": "Bizinfe - Nagercoil, India",
-      "role": "Intermediate Software Developer | May 2016 - September 2017",
-      "projects": [
-        {
-          "name": "General",
-          "techStack": "HTML, CSS, Bootstrap, Angular, Node.js, ASP .NET, JavaScript, jQuery, AJAX, SQL Server, MySQL"
-        }
-      ],
-      "responsibilities": [
-        "Create responsive websites for clients based on the requirements and work on Bizinfe website.",
-        "Design UI/UX mockups and wireframes, develop front end pages and components.",
-        "Work on API development, database design, writing queries and stored procedures.",
-        "Write scripts using Perl and Shell to automate tasks.",
-        "Code optimization, testing, integration and performance analysis."
+        "Internship focused on AI & ML technologies.",
+        "Hands-on experience with Python modules: numpy, pandas, matplotlib, seaborn, BeautifulSoup etc.",
+        "Worked on Automatic Number Plate Recognition with IBM Cloud project.",
+        "Developed a web application using Flask and deployed it on IBM Cloud.",
+        "Learned about various AI & ML algorithms and their applications."
       ]
     }
   ],
    "education": [
     {
-      "degree": "Computer Application Security",
-      "institution": "Conestoga College - Kitchener, Canada",
-      "period": "May 2018 - December 2018"
+      "degree": "Post Graduate Diploma",
+      "specialization": "Artificial Intelligence and Data Science",
+      "grade": "83.5%",
+      "remarks": "Dean's List of Excellence",
+      "institution": "Loyalist College in Toronto - Toronto, Canada",
+      "period": "May 2023 - December 2024"
     },
     {
-      "degree": "Computer Application Development",
-      "institution": "Conestoga College - Kitchener, Canada",
-      "period": "September 2017 - April 2018"
-    },
-    {
-      "degree": "Bachelor's in Engineering - Computer Science",
+      "degree": "Bachelor's of Technology",
+      "specialization": "Computer Science and Engineering",
+      "grade": "9.21 CGPA",
+      "remarks": "Best Outgoing Male in Academics",
       "institution": "National Engineering college - Kovilpatti, India",
-      "period": "June 2012 - May 2016"
+      "period": "August 2018 - May 2022"
     }
   ],
   "projects": [
     {
-      "name": "Social Network Web App",
-      "description": "A full-featured social network web application.",
-      "techStack": "MERN stack, React, Redux, Node.js, MongoDB, Heroku, MaterialUI",
-      "link": "https://github.com/ReoJefton/ReoSocial"
+      "name": "Student Support Chatbot (Chatflix)",
+      "summary": "RAG-based chatbot for Loyalist College and Toronto Business College.",
+      "techStack": "Python, Moodle Plugin, Web Portal, RAG, LangChain, LLMs, PostgreSQL, Docker, GitHub",
+      "description": [  "Built a RAG-based chatbot to provide students with information about college policies.",
+      "Retrieves relevant policies based on student queries and provides customized responses.",
+      "Developed a Moodle Plugin for students and a server portal for maintenance staff.",
+      "Utilized LangChain and LLMs for natural language processing.",
+      "Implemented PostgreSQL for data storage and retrieval.",
+      "Deployed the application using Docker and managed version control with GitHub.",
+      "Collaborated with a team of 8 to design and implement the chatbot.",
+      "Conducted user testing and gathered feedback for continuous improvement.",
+      "Ensured compliance with college policies and data privacy regulations.",
+      "Presented the project to college stakeholders and received positive feedback for its usability and effectiveness."]
+
     },
     {
-      "name": "Noorul Islam Polytechnic College Website",
-      "description": "Official website for Noorul Islam Polytechnic College.",
-      "techStack": "Next.js, Tailwind CSS, TypeScript",
-      "link": "https://nipc.in/"
+      "name": "Enhancing Medical Data Security Using NTRU Algorithm and Steganography",
+      "summary": "Python GUI for medical data security",
+      "techStack": "Python, Cryptography, Steganography, Tkinter",
+      "description": ["Developed a custom Python GUI with cryptographic functionalities for securing medical records.",
+      "Implemented NTRU algorithm for encryption and decryption of medical data.",
+      "Utilized steganography to hide encrypted data within images, enhancing security.",
+      "Designed a user-friendly interface using Tkinter for easy interaction.",
+      "Ensured data integrity and confidentiality through advanced encryption techniques.",
+      "Conducted thorough testing to validate the effectiveness of the security measures.",
+      "Published in the INTERNATIONAL JOURNAL FOR INNOVATIVE ENGINEERING AND MANAGEMENT RESEARCH."]
     },
     {
-      "name": "InstaROI and Kinetic GPO PWA (NexGen Marketing Group)",
-      "description": "Progressive web apps for marketing and procurement.",
-      "techStack": "ASP.NET core MVC, React, Microsoft Azure, SQL Server",
-      "link": "https://github.com/ReoJefton/InstaROI-NetCoreWeb"
+      "name": "Automatic Number Plate Recognition using Rapid API",
+      "summary": "Web app for vehicle number plate recognition",
+      "techStack": "Python Flask, Rapid API, Web Development",
+      "description": ["Created a website for public use of number plate recognition software.",
+      "Integrated Rapid API for image processing and number plate recognition.",
+      "Developed a dashboard using Python Flask to handle image submissions and display results.",
+      "Implemented user authentication and session management for secure access.",
+      "Ensured responsive design for compatibility across devices.",
+      "Conducted user testing to refine the user experience.",
+      "Published the project on GitHub for public access."
+    ]
     },
     {
-      "name": "WellBeings",
-      "description": "Wellness tracking and management .NET Core Web App.",
-      "techStack": "C#, ASP.Net Core MVC, Entity Framework",
-      "link": "https://github.com/reojefton/WellBeings-NetCoreApp"
+      "name": "VIRTUAL LABS for Mechanics of Solid Lab",
+      "summary": "Simulated civil engineering labs",
+      "techStack": "SVG, HTML Canvas, JavaScript, CSS, GitLab",
+      "description": ["Developed virtual labs for users to simulate practical civil labs on their devices.",
+      "Created a web application using SVG and HTML canvas for interactive simulations.",
+      "Implemented JavaScript for mechanics and physics calculations.",
+      "Designed user-friendly interfaces with CSS for an engaging user experience.",
+      "Collaborated with a team to ensure accurate simulations and educational value.",
+      "Conducted user testing to gather feedback and improve functionality.",
+      "Published the project on GitLab for educational use.",
+      "Key features include interactive simulations, real-time calculations, and detailed explanations of mechanics concepts.",
+      "Project implemented under the guidance of IIT Roorkee."
+    ]
     },
     {
-      "name": "Now management Studio - CMS (ISN Technologies)",
-      "description": "Custom CMS for business management.",
-      "techStack": "React, Angular, Node.js, .NET Core, Microservices Architecture, REST API, SQL Server, MongoDB, AWS",
-      "link": ""
-    },
-    {
-      "name": "Web Portfolio",
-      "description": "Personal portfolio website.",
-      "techStack": "HTML, CSS, JS, GitHub Pages, PWA",
-      "link": "https://reojefton.github.io/PortfolioRJ/"
-    },
-    {
-      "name": "Conestoga Portal UWP App",
-      "description": "Access web portals and take notes with built-in password manager.",
-      "techStack": "C#, .NET Core, SQL Server",
-      "link": "https://www.microsoft.com/en-ca/p/conestoga-portal/9p45t4g9gqf3?activetab=pivot:overviewtab"
-    },
-    {
-      "name": "10Launcher",
-      "description": "Chromium extension for managing recently visited sites and favorites.",
-      "techStack": "React, HTML, CSS, Bootstrap, JavaScript, TypeScript",
-      "link": "https://microsoftedge.microsoft.com/addons/detail/10launcher/lohfjfafljfmninkapddiidjinilohkc"
+      "name": "Pocket Dynamos Portal",
+      "summary": "Web portfolio for rising local cricket club",
+      "techStack": "HTML5, CSS3, JavaScript, GitHub",
+      "description": ["Developed a web portal for a local cricket club to showcase players, teams, matches, and merchandise.",
+      "Designed and implemented the portal using HTML5, CSS3, and JavaScript.",
+      "Created a user-friendly interface for easy navigation and information access.",
+      "Implemented features for displaying player profiles, team statistics, and match schedules.",
+      "Ensured responsive design for compatibility across devices.",
+      "Collaborated with club members to gather requirements and feedback.",
+      "Published the project on GitHub for public access.",
+      "Key features include player profiles, team statistics, match schedules, club merchandise and a contact form for inquiries.",
+      "Project aimed at promoting local cricket talent and enhancing community engagement."
+    ]
     }
   ]
 }
