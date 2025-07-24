@@ -70,10 +70,10 @@ Welcome to the personal portfolio website of VENKATA SAI NADELLA, Full Stack Dev
 
 ## 📬 Contact
 
-- Email: [reojefton@outlook.com](mailto:reojefton@outlook.com)
-- Phone: [+1 519-722-8671](tel:+15197228671)
-- GitHub: [github.com/reojefton](https://github.com/reojefton)
-- LinkedIn: [linkedin.com/in/reojefton](https://www.linkedin.com/in/reojefton)
+- Email: [venkatasainadella85@gmail.com](mailto:venkatasainadella85@gmail.com)
+- Phone: [+1 (647)872-8327](tel:+16478728327)
+- GitHub: [github.com/venkatnadella](https://github.com/venkatnadella)
+- LinkedIn: [linkedin.com/in/venkata-sai-nadella](https://www.linkedin.com/in/venkata-sai-nadella)
 
 ---
 
@@ -93,4 +93,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-![Screenshot](images/profilepic.JPG)
+![Screenshot](assets/img/venkat_muskoka_image.jpg)
