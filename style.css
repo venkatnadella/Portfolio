@@ -1,15 +1,33 @@
+/* Accent color variable */
+:root {
+    /* --accent-green: #04AA6D; */
+    --accent-green: #1DB954;
+
+    --modal-bg: rgba(0, 0, 0, 0.3);
+    --modal-content-bg: #fff;
+}
+
+/* Import Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /* Prevent horizontal overflow on small screens */
 html,
 body {
     max-width: 100vw;
     overflow-x: hidden;
     word-break: break-word;
-    /* Prevents long words from causing overflow */
+    min-height: 100vh;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 1.428;
 }
 
 html {
-    scroll-behavior:smooth;
-    scroll-padding-top: 60px; /* Adjust for fixed header */;
+    /* scroll-behavior: smooth;
+    scroll-padding-top: 90px; */
+}
+
+a {
+    color: #000000;
 }
 
 /* Responsive image scaling */
@@ -28,6 +46,10 @@ img {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    /* Prevent #parentDiv from overlapping navbar */
+    margin-top: 68px;
+    min-height: 85vh;
+    padding: 28px 16px;
 }
 
 /* Responsive navigation */
@@ -38,8 +60,23 @@ img {
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     background-color: #f4f4f4;
+}
+
+.li-app-name {
+    display: flex;
+}
+
+.app-name {
+    font-weight: 600;
+    font-size: 1.2em;
+    /* /* color: #04AA6D; */
+    color: var(--accent-green);
+    text-decoration: none;
+    padding: 0px 16px;
+    /* font-size: 22px; */
+    margin: auto;
 }
 
 ul.topNav,
@@ -52,32 +89,59 @@ ul.bottomNav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /* border: 5px red solid;
-            border-width:3px; */
+    /* border: 5px red solid; */
+    border: none;
 }
 
-ul.topNav li,
+ul.topNav li {
+    float: left;
+    height: 45px;
+    display: flex;
+}
+
 ul.bottomNav li {
     float: left;
+    height: 45px;
 }
 
 ul.topNav li a,
 ul.bottomNav li a {
     display: block;
-    color: white;
+    /* display: flex; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
+
     text-decoration: none;
+    font-weight: 500;
+    /* border-radius: 8px; */
+    /* transition: background 0.2s, color 0.2s; */
+}
+
+ul.topNav li a:hover,
+ul.topNav li button:hover,
+ul.bottomNav li a:hover {
+    background-color: #111;
+    color: var(--accent-green);
 }
 
 ul.topNav li a:hover:not(.active),
 ul.bottomNav li a:hover:not(.active) {
     background-color: #111;
+    /* color: var(--accent-green); */
 }
 
 ul.topNav li a.active,
 ul.bottomNav li a.active {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
+    /* background-color: var(--accent-green); */
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--accent-green);
 }
 
 ul.topNav li.right,
@@ -85,17 +149,13 @@ ul.bottomNav li.right {
     float: right;
 }
 
-/* Prevent #parentDiv from overlapping navbar */
-#parentDiv {
-    margin-top: 60px;
-}
-
-h1 {
-    /* color: darkblue; */
+h1,
+h2,
+h4,
+.header2 {
+    color: var(--accent-green) !important;
     font-weight: bold;
     margin: 0px;
-    /* font-size: 2em; */
-    /* text-align: left; */
 }
 
 .header2 {
@@ -110,34 +170,97 @@ h3 {
     /* font-size: 16px !important;*/
     /* font-size: var(--bs-body-font-size) !important; */
     font-size: 1.2rem !important;
-
 }
 
-#parentDiv {
-    padding: 28px 16px;
+h4 {
+    font-size: 18px;
+}
+
+/* Card styling for accordion sections */
+.card {
+    /* background: #fff; */
+    border-radius: 5px;
+    box-shadow: 0 4px 24px rgba(238, 42, 123, 0.10), 0 1.5px 6px rgba(0, 0, 0, 0.04);
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: 1.5px solid var(--accent-green);
+}
+
+/* Accordion content smooth animation */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.accordion-content.open {
+    /* max-height will be set inline by JS to scrollHeight */
+}
+
+.accordion-toggle {
+    display: flex;
+    background: inherit;
+    border: 0px;
+    padding: 0px 0px;
+    text-align: left;
+}
+
+/* Accordion arrow styling */
+.accordion-arrow {
+    float: left;
+    font-size: 1.2em;
+    padding-right: 5px;
+    color: var(--accent-green);
+    transition: color 0.2s;
 }
 
 /* Center footer content and match #parentDiv padding */
 .footer-content {
     text-align: center;
-    padding: 32px 24px;
+    padding: 12px 12px;
     margin: 0;
     /* color: var(--text-color, #fff); */
     font-size: 1rem;
+    /* background: linear-gradient(90deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+    color: #fff;
+    box-shadow: 0 -2px 16px rgba(238, 42, 123, 0.10);
+    letter-spacing: 0.02em; */
 }
 
+/* Instagram-inspired card container */
 .flexbox-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 32px 32px 24px 32px; */
+    /* margin-bottom: 32px; */
+    /* gap: 32px; */
 }
 
 .flexbox-container2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* gap: 12px; */
 }
 
+/* Instagram-style profile image */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    /* Instagram-style */
+    /* box-shadow: 0 0 0 4px #ee2a7b, 0 2px 12px rgba(238, 42, 123, 0.10);
+    background: linear-gradient(135deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%); */
+    /* Green-style */
+    /* box-shadow: 0 0 0 4px #04AA6D, 0 2px 12px rgba(4, 170, 109, 0.10);
+    background: linear-gradient(135deg, #f9ce34 0%, #04AA6D 50%, #6228d7 100%); */
+
+    box-shadow: 0 0 0 4px var(--accent-green), 0 2px 12px rgba(4, 170, 109, 0.10);
+    background: linear-gradient(135deg, #f9ce34 0%, var(--accent-green) 50%, #6228d7 100%);
+}
 
 /* @media (min-width: 481px) and (max-width: 600px) {
 
@@ -163,17 +286,9 @@ h3 {
 
 /* Bottom navigation on mobile */
 @media only screen and (max-width: 480px) {
-
-    html {
-        scroll-padding-top: 110px; /* Adjust for fixed header */;
-    }
-
-    .flexbox-container {
-        padding-top: 5vh;
-    }
-
+    
     #parentDiv {
-        padding: 8px;
+        padding: 12px;
     }
 
     /* .header1,
@@ -216,25 +331,11 @@ h3 {
         left: 0;
         width: 100vw;
         z-index: 1000;
-        border-top: 1px solid #ddd;
-        border-bottom: none;
-        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+        border-top: 0px solid #000000;
+        border-bottom: 0px solid #000000;
+        /* box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08); */
         background-color: #333;
-    }
 
-    #parentDiv {
-        margin-top: 60px !important;
-        /* margin-bottom: 60px; */
-    }
-
-    footer {
-        margin-bottom: 60px;
-    }
-}
-
-/* Make the bottomNav items take the whole width of the screen */
-@media screen and (max-width: 480px) {
-    .bottomNav {
         display: flex;
         justify-content: space-between;
         position: fixed;
@@ -242,13 +343,13 @@ h3 {
         left: 0;
         width: 100vw;
         z-index: 1000;
-        border-top: 1px solid #ddd;
         background-color: #333;
-        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+
+        /* border-top: 1px solid #ddd; */
+        /* box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08); */
         margin: 0;
         padding: 0;
         list-style-type: none;
-        flex-wrap: wrap;
     }
 
     .bottomNav li {
@@ -272,11 +373,20 @@ h3 {
     }
 
     .bottomNav li a.active {
-        background-color: #04AA6D;
+        /* background-color: #04AA6D; */
     }
 
     .bottomNav li a:hover:not(.active) {
         background-color: #111;
+    }
+
+    #parentDiv {
+        margin-top: 85px !important;
+        /* margin-bottom: 60px; */
+    }
+
+    footer {
+        margin-bottom: 60px;
     }
 }
 
@@ -286,15 +396,111 @@ h3 {
     }
 }
 
-#downloadPdfBtn {
-    background-color: #04AA6D;
-    color: white;
+
+/* Theme Toggle Button and other navbar button styles */
+.theme-toggle-btn,
+.download-btn,
+.accent-color-btn {
+    height: 100%;
+    /* width: 44px; 
+    margin: 5px; */
+    background: transparent;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
-    margin: 24px auto;
-    display: block;
-    transition: background-color 0.3s ease;
+    font-size: 1.5em;
+    transition: background 0.2s;
+    color: inherit;
+}
+
+/* Accent Color Picker Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--modal-bg, rgba(0, 0, 0, 0.3));
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: var(--modal-content-bg, #fff);
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: flex-start;
+}
+
+.modal-content label {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#accentColorPicker {
+    width: 48px;
+    height: 48px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#closeAccentModal {
+    margin-top: 18px;
+    padding: 6px 18px;
+    border-radius: 6px;
+    border: none;
+    background: var(--accent-green);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.modal-section-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Accent Color Swatches Container */
+#accentColorSwatches {
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.accent-swatch {
+    /* width: 32px;
+    height: 32px;
+    border-radius: 50%; */
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    /* border: 2px solid #eee; */
+    border: 0px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    /* transition: border 0.2s, box-shadow 0.2s; */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    margin: 0;
+    padding: 0;
+}
+
+.accent-swatch:focus,
+.accent-swatch:hover {
+    /* border: 2px solid var(--accent-green); */
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-theme {
+    --modal-bg: rgba(0, 0, 0, 0.7);
+    --modal-content-bg: #222;
 }
