@@ -44,11 +44,18 @@
   ],
   "experience": [
     {
-      "company": "Phenom People",
-      "location": "Hyderabad, India",
-      "role": "Product Development Engineer 1",
-      "domain": "Back End Development",
-      "period": "February 2022 - May 2022",
+      "companyName": "Phenom People",
+      "city": "Hyderabad",
+      "country": "India",
+      "designation": "Product Development Engineer 1 | Back End Development",
+      "startDate": "February 2022",
+      "endDate": "May 2022",
+      "projects": [
+        {
+          "name": "Upgrading Redis Database Architecture",
+          "techStack": ["Java", "Redis", "Spring Boot", "Microservices"]
+        }
+      ],
       "responsibilities": [
         "Handled tasks in backend development using Java language.",
         "Performed user testing and UI checks.",
@@ -58,11 +65,18 @@
       ]
     },
     {
-      "company": "Smart Internz (Externship)",
-      "location": "Gudlavalleru, India",
-      "role": "AI / ML Intern",
-      "domain": "AI & ML Engineer",
-      "period": "May 2019 - June 2019",
+      "companyName": "Smart Internz (Externship)",
+      "city": "Gudlavalleru",
+      "country": "India",
+      "designation": "AI/ML Intern",
+      "startDate": "May 2019",
+      "endDate": "June 2019",
+      "projects": [
+        {
+          "name": "Automatic Number Plate Recognition with IBM Cloud",
+          "techStack": ["Python", "Flask", "IBM Cloud", "OpenCV"]
+        }
+      ],
       "responsibilities": [
         "Internship focused on AI & ML technologies.",
         "Hands-on experience with Python modules: numpy, pandas, matplotlib, seaborn, BeautifulSoup etc.",
@@ -74,93 +88,106 @@
   ],
    "education": [
     {
-      "degree": "Post Graduate Diploma",
-      "specialization": "Artificial Intelligence and Data Science",
-      "grade": "83.5%",
-      "remarks": "Dean's List of Excellence",
-      "institution": "Loyalist College in Toronto - Toronto, Canada",
-      "period": "May 2023 - December 2024"
+      "degree": "Post Graduate Diploma - Artificial Intelligence and Data Science",
+      "institutionName": "Loyalist College in Toronto",
+      "province": "Ontario",
+      "country": "Canada",
+      "period": "May 2023 - December 2024",
+      "grade" : "83.5%",
+      "remarks": "Dean's List of Excellence"
     },
     {
-      "degree": "Bachelor's of Technology",
-      "specialization": "Computer Science and Engineering",
+      "degree": "Bachelor's of Technology - Computer Science and Engineering",
+      "institutionName": "Seshadri Rao Gudlavalleru Engineering College",
+      "province": "Andhra Pradesh",
+      "country": "India",
+      "period": "August 2018 - May 2022",
       "grade": "9.21 CGPA",
-      "remarks": "Best Outgoing Male in Academics",
-      "institution": "National Engineering college - Kovilpatti, India",
-      "period": "August 2018 - May 2022"
+      "remarks": "Best Outgoing Male in Academics"
     }
   ],
   "projects": [
     {
       "name": "Student Support Chatbot (Chatflix)",
-      "summary": "RAG-based chatbot for Loyalist College and Toronto Business College.",
-      "techStack": "Python, Moodle Plugin, Web Portal, RAG, LangChain, LLMs, PostgreSQL, Docker, GitHub",
-      "description": [  "Built a RAG-based chatbot to provide students with information about college policies.",
-      "Retrieves relevant policies based on student queries and provides customized responses.",
-      "Developed a Moodle Plugin for students and a server portal for maintenance staff.",
-      "Utilized LangChain and LLMs for natural language processing.",
-      "Implemented PostgreSQL for data storage and retrieval.",
-      "Deployed the application using Docker and managed version control with GitHub.",
-      "Collaborated with a team of 8 to design and implement the chatbot.",
-      "Conducted user testing and gathered feedback for continuous improvement.",
-      "Ensured compliance with college policies and data privacy regulations.",
-      "Presented the project to college stakeholders and received positive feedback for its usability and effectiveness."]
-
+      "description": "RAG-based chatbot for Loyalist College and Toronto Business College.",
+      "techStack": ["Python", "Moodle Plugin", "Web Portal", "RAG", "LangChain", "LLMs", "PostgreSQL", "Docker", "GitHub"],
+      "link": "https://github.com/ReoJefton/ReoSocial",
+      "details": [
+        "Built a RAG-based chatbot to provide students with information about college policies.",
+        "Retrieves relevant policies based on student queries and provides customized responses.",
+        "Developed a Moodle Plugin for students and a server portal for maintenance staff.",
+        "Utilized LangChain and LLMs for natural language processing.",
+        "Implemented PostgreSQL for data storage and retrieval.",
+        "Deployed the application using Docker and managed version control with GitHub.",
+        "Collaborated with a team of 8 to design and implement the chatbot.",
+        "Conducted user testing and gathered feedback for continuous improvement.",
+        "Ensured compliance with college policies and data privacy regulations.",
+        "Presented the project to college stakeholders and received positive feedback for its usability and effectiveness."
+      ]
     },
     {
       "name": "Enhancing Medical Data Security Using NTRU Algorithm and Steganography",
-      "summary": "Python GUI for medical data security",
-      "techStack": "Python, Cryptography, Steganography, Tkinter",
-      "description": ["Developed a custom Python GUI with cryptographic functionalities for securing medical records.",
-      "Implemented NTRU algorithm for encryption and decryption of medical data.",
-      "Utilized steganography to hide encrypted data within images, enhancing security.",
-      "Designed a user-friendly interface using Tkinter for easy interaction.",
-      "Ensured data integrity and confidentiality through advanced encryption techniques.",
-      "Conducted thorough testing to validate the effectiveness of the security measures.",
-      "Published in the INTERNATIONAL JOURNAL FOR INNOVATIVE ENGINEERING AND MANAGEMENT RESEARCH."]
+      "description": "Python GUI for medical data security.",
+      "techStack": ["Python", "Cryptography", "Steganography", "Tkinter"],
+      "link": "https://nipc.in/", 
+      "details": [
+        "Developed a custom Python GUI with cryptographic functionalities for securing medical records.",
+        "Implemented NTRU algorithm for encryption and decryption of medical data.",
+        "Used steganography techniques to hide sensitive information within images.",
+        "Designed an intuitive user interface using Tkinter for easy interaction.",
+        "Ensured data integrity and confidentiality through robust security measures.",
+        "Conducted thorough testing to validate the effectiveness of the security features.",
+        "Collaborated with healthcare professionals to gather requirements and feedback.",
+        "Published in the INTERNATIONAL JOURNAL FOR INNOVATIVE ENGINEERING AND MANAGEMENT RESEARCH."
+      ]
     },
     {
-      "name": "Automatic Number Plate Recognition using Rapid API",
-      "summary": "Web app for vehicle number plate recognition",
-      "techStack": "Python Flask, Rapid API, Web Development",
-      "description": ["Created a website for public use of number plate recognition software.",
-      "Integrated Rapid API for image processing and number plate recognition.",
-      "Developed a dashboard using Python Flask to handle image submissions and display results.",
-      "Implemented user authentication and session management for secure access.",
-      "Ensured responsive design for compatibility across devices.",
-      "Conducted user testing to refine the user experience.",
-      "Published the project on GitHub for public access."
-    ]
+      "name": "Automatic Number Plate Recognition with IBM Cloud",
+      "description": "Web app for vehicle number plate recognition",
+      "techStack": ["Python Flask", "Rapid API", "Web Development"],
+      "link": "https://github.com/ReoJefton/InstaROI-NetCoreWeb",
+      "details": [
+        "Created a website for public use of number plate recognition software.",
+        "Integrated Rapid API for image processing and number plate recognition.",
+        "Developed a dashboard using Python Flask to handle image submissions and display results.",
+        "Ensured user-friendly interface and efficient performance.",
+        "Conducted testing to validate the accuracy of number plate recognition.",
+        "Collaborated with team members to enhance functionality and user experience."
+      ]
     },
     {
       "name": "VIRTUAL LABS for Mechanics of Solid Lab",
-      "summary": "Simulated civil engineering labs",
-      "techStack": "SVG, HTML Canvas, JavaScript, CSS, GitLab",
-      "description": ["Developed virtual labs for users to simulate practical civil labs on their devices.",
-      "Created a web application using SVG and HTML canvas for interactive simulations.",
-      "Implemented JavaScript for mechanics and physics calculations.",
-      "Designed user-friendly interfaces with CSS for an engaging user experience.",
-      "Collaborated with a team to ensure accurate simulations and educational value.",
-      "Conducted user testing to gather feedback and improve functionality.",
-      "Published the project on GitLab for educational use.",
-      "Key features include interactive simulations, real-time calculations, and detailed explanations of mechanics concepts.",
-      "Project implemented under the guidance of IIT Roorkee."
-    ]
+      "description": "Simulated civil engineering labs.",
+      "techStack": ["HTML", "SVG", "HTML Canvas", "CSS", "JavaScript", "Web Development"],
+      "link": "https://github.com/reojefton/WellBeings-NetCoreApp",
+      "details": [
+        "Developed virtual labs for users to simulate practical civil labs on their devices.",
+        "Created a web application using SVG and HTML canvas for interactive simulations.",
+        "Implemented JavaScript for mechanics and physics calculations.",
+        "Designed user-friendly interfaces with CSS for an engaging user experience.",
+        "Collaborated with a team to ensure accurate simulations and educational value.",
+        "Conducted user testing to gather feedback and improve functionality.",
+        "Published the project on GitLab for educational use.",
+        "Key features include interactive simulations, real-time calculations, and detailed explanations of mechanics concepts.",
+        "Project implemented under the guidance of IIT Roorkee."
+      ]
     },
     {
       "name": "Pocket Dynamos Portal",
-      "summary": "Web portfolio for rising local cricket club",
-      "techStack": "HTML5, CSS3, JavaScript, GitHub",
-      "description": ["Developed a web portal for a local cricket club to showcase players, teams, matches, and merchandise.",
-      "Designed and implemented the portal using HTML5, CSS3, and JavaScript.",
-      "Created a user-friendly interface for easy navigation and information access.",
-      "Implemented features for displaying player profiles, team statistics, and match schedules.",
-      "Ensured responsive design for compatibility across devices.",
-      "Collaborated with club members to gather requirements and feedback.",
-      "Published the project on GitHub for public access.",
-      "Key features include player profiles, team statistics, match schedules, club merchandise and a contact form for inquiries.",
-      "Project aimed at promoting local cricket talent and enhancing community engagement."
-    ]
+      "description": "Web portfolio for rising local cricket club.",
+      "techStack": ["HTML5", "CSS3", "JavaScript", "GitHub"],
+      "link": "https://venkatnadella.github.io/Pocket-Dynamos",
+      "details": [
+        "Developed a web portal for a local cricket club to showcase players, teams, matches, and merchandise.",
+        "Designed and implemented the portal using HTML5, CSS3, and JavaScript.",
+        "Created a user-friendly interface for easy navigation and information access.",
+        "Implemented features for displaying player profiles, team statistics, and match schedules.",
+        "Ensured responsive design for compatibility across devices.",
+        "Collaborated with club members to gather requirements and feedback.",
+        "Published the project on GitHub for public access.",
+        "Key features include player profiles, team statistics, match schedules, club merchandise and a contact form for inquiries.",
+        "Project aimed at promoting local cricket talent and enhancing community engagement."
+      ]
     }
   ]
 }

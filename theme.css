@@ -9,7 +9,8 @@ body.dark-theme {
 
 .dark-theme a,
 .dark-theme .topnav a {
-    color: #f1f1f1 !important;
+    color: #f1f1f1;
+    /* color: var(--accent-green) !important; */
 }
 
 .dark-theme .header1,
@@ -17,28 +18,12 @@ body.dark-theme {
     color: #f1f1f1;
 }
 
+/* .dark-theme h3 {
+    color: var(--accent-green) !important;
+} */
+
 .dark-theme .profile-pic {
     border: 2px solid #f1f1f1;
-}
-
-/* Theme Toggle Button Styles */
-.theme-toggle-btn {
-    height: 100%;
-    width: 44px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 1.5em;
-    margin-right: 10px;
-    transition: background 0.2s;
-    color: inherit;
-}
-
-.topnav .theme-toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
 }
 
 /* Toggle button background based on current theme */
@@ -53,7 +38,8 @@ body:not(.dark-theme) .theme-toggle-btn {
 } */
 
 /* Flexbox wrapper for theme toggle button */
-.theme-toggle-flex {
+.theme-toggle-flex,
+.download-flex {
     display: flex;
     align-items: center;
     justify-content: center;

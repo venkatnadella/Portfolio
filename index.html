@@ -1,176 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Venkata Sai Nadella - Portfolio
-    </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="theme.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- Comment out bootstrap link if not needed -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!-- Can also add styles here - But avaid this and move styles to external .CSS file instead -->
-    <!-- <style>
-        body {
-            margin: 0;
-        }
-    </style> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->
+    <script src="profileDataScript.js" defer></script>
     <script src="script.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="downloadPage.js" defer></script>
-</head>
+  </head>
+  <link rel="stylesheet" href="theme.css" />
+  <script src="theme.js"></script>
 
-<body>
+  <body>
     <!-- Top navigation for all links -->
     <ul class="topNav top-mobile">
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">skills</a></li>
-        <li class="right theme-toggle-flex"><button id="themeToggleBtn" class="theme-toggle-btn">🌙</button></li>
-        <li class="mobile-hidden"><a href="./index2.html">HomeV2</a></li>
-        <li class="mobile-hidden"><a href="./home.html">HomeV3</a></li>
-        <li class="right mobile-hidden"><a href="./contact.html">Contact Me</a></li>
-        <li class="right mobile-hidden"><a href="./Venkata_sai_Nadella_Resume.pdf" download>Download Resume</a></li>
+      <!-- <li><a class="app-name" href="#">Portfolio</a></li> -->
+      <li class="li-app-name">
+        <span class="app-name">Portfolio</span>
+      </li>
+      <li><a class="mobile-hidden active" href="#home">Home</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+
+      <li class="right theme-toggle-flex">
+        <button
+          id="themeToggleBtn"
+          class="theme-toggle-btn"
+          title="Toggle Theme"
+        >
+          🌙
+        </button>
+      </li>
+      <li class="right color-picker-flex">
+        <button
+          id="accentColorBtn"
+          class="accent-color-btn"
+          title="Select Accent Color"
+        >
+          🎨
+        </button>
+      </li>
+      <!--<li class="right download-flex"><button id="downloadResumeBtn" class="download-btn"
+                title="Download Resume">📥</button></li>-->
+      <!-- <li class="mobile-hidden"><a href="./index2.html">HomeV2</a></li> -->
+      <li class="right mobile-hidden"><a href="./contact.html">Contact</a></li>
+      <li class="right mobile-hidden download-flex">
+        <a href="./Venkata_sai_Nadella_Resume.pdf" download
+          >Download Resume 📥</a
+        >
+      </li>
     </ul>
 
     <!-- Bottom navigation: only links with .bottom-mobile class are shown on mobile -->
     <ul class="bottomNav">
-        <li class="bottom-mobile"><a href="./index2.html">HomeV2</a></li>
-        <li class="bottom-mobile"><a href="./home.html">HomeV3</a></li>
-        <li class="bottom-mobile"><a href="./Venkata_sai_Nadella_Resume.pdf" download>Download Resume</a></li>
-        <li class="bottom-mobile"><a href="./contact.html">Contact Me</a></li>
+      <li class="bottom-mobile">
+        <a class="active" href="./index.html">Home</a>
+      </li>
+      <li class="bottom-mobile"><a href="./contact.html">Contact</a></li>
+      <li class="bottom-mobile">
+        <a href="./Venkata_sai_Nadella_Resume.pdf" download>Resume 📥</a>
+      </li>
+      <!-- <li class="bottom-mobile"><a class="active" href="./index.html"><span class="nav-icon">🏠</span>Home</a></li>
+        <li class="bottom-mobile"><a href="./about.html"><span class="nav-icon">ℹ️</span>About</a></li>
+        <li class="bottom-mobile"><a href="./contact.html"><span class="nav-icon">📞</span>Contact</a></li> -->
     </ul>
-
-    <div id="parentDiv">
-        <!-- Bootstrap Grid System - Use flexbox instead of bootstrap for responsive design when possible-->
-        <!-- <div class="row">
-            <div class="col-md-8 col-lg-8 col-sm-12">
-            </div>
-            <div class="col-md-4 col-lg-4 col-sm-12">
-            </div>
-        </div> -->
-        <div class="flexbox-container">
-            <div class="flexbox-container2">
-                <!-- inline styling - avoid and move styles to .CSS file instead -->
-                <h1 class="header1" id="home" >VENKATA SAI NADELLA</h1>
-                <h2 class="header2">AI ENGINEER</h2>
-            </div>
-            <div class="flexbox-container2">
-                <img class="profile-pic" src="assets/img/venkat_muskoka_image.jpg" alt="Profile Picture" width="100" height="100">
-            </div>
-        </div>
-        <h3>
-            Email: <a href="mailto:venkatasainadella85@gmail.com">venkatasainadella85@gmail.com </a>
-            <br>
-            Mobile: <a href="tel:+16478291723">+16478291723</a>
-            <br>Location: Toronto, Ontario
-            <br>GitHub: <a href="https://github.com/venkatnadella" target="_blank" rel="noopener">Venkat Nadella</a>
-            <br>Linkedin: <a href="https://www.linkedin.com/in/venkata-sai-nadella/" target="_blank" rel="noopener">Venkata Sai Nadella</a>
-        </h3>
-        <p>Dynamic professional with a strong foundation in mathematics, coding languages, and critical thinking, seeking 
-challenging opportunities. Proficient in visualization, analytics, and statistics, with a passion for learning new 
-technologies. Known for fostering great empathy and exhibiting strong team-playing behavior. Eager to contribute 
-valuable skills and drive impactful results.
-        </p>
-
-        <h4 id="education">EDUCATION</h4>
-        <ul>
-            <li><b>Post Graduate Diploma - Artificial Intelligence & Data Science</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>83.5%</b> <small><small>(Dean's List)</small></small>
-                <br>Loyalist College in Toronto - Toronto, Ontario&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;May 2023 - December 2024
-            </li>
-            <li><b>Bachelor of Technology - Computer Science & Engineering</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>9.21 CGPA</b> <small><small>(Best Outgoing Male in Academics)</small></small>
-                <br>Seshadri Rao Gudlavalleru Engineering College - Gudlavalleru, India &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; August 2018 - April 2022
-            </li>
-        </ul>
-        <h4 id="projects">PROJECTS</h4>
-        <ul>
-            <li>
-        <b>Student Support Chatbot (Chatflix) -</b> RAG-based chatbot for Loyalist College and Toronto Business College<br>
-        • Built a RAG-based chatbot to provide students with information about college policies.<br>
-        • Retrieves relevant policies based on student queries and provides customized responses.<br>
-        • Developed a Moodle Plugin for students and a server portal for maintenance staff.<br>
-        <i>Technologies:</i> Python, Moodle Plugin, Web Portal
-    </li>
-
-    <li>
-        <b>Enhancing Medical Data Security Using NTRU Algorithm and Steganography -</b> Python GUI for medical data security<br>
-        • Developed a custom Python GUI with cryptographic functionalities for securing medical records.<br>
-        • Used a blend of NTRU, steganography, and Caesar cipher for three-layer encryption.<br>
-        • Published in INTERNATIONAL JOURNAL FOR INNOVATIVE ENGINEERING AND MANAGEMENT RESEARCH.<br>
-        <i>Technologies:</i> Python, Cryptography, Steganography
-    </li>
-
-    <li>
-        <b>Automatic Number Plate Recognition using Rapid API -</b> Web-based number plate recognition<br>
-        • Created a website for public use of number plate recognition software.<br>
-        • Used Python Flask for the dashboard; application sends requests to Rapid API on image submission.<br>
-        <i>Technologies:</i> Python Flask, Rapid API, Web Development
-    </li>
-
-    <li>
-        <b>Virtual Labs for Mechanics of Solid Lab -</b> Simulated civil engineering labs<br>
-        • Developed virtual labs for users to simulate practical civil labs on their devices.<br>
-        • Used SVG and HTML canvas for experiment simulation, JavaScript for mechanics.<br>
-        • Project under IIT Roorkee.<br>
-        <i>Technologies:</i> SVG, HTML Canvas, JavaScript
-    </li>
-
-        </ul>
-
-        <h4 id="experience">PROFESSIONAL EXPERIENCE</h4>
-        <ul>
-        <li><p><b>Phenom People - Hyderabad, India</b>
-        <br>
-          <b>Product Development Engineer - I | February 2022 - May 2022</b>
-        </p>
-        <ul>
-          <li>Handled tasks in backend development using Java language.</li>
-          <li>Performed user testing and UI checks.</li>
-          <li>Attended daily scrum meetings, grooming sessions, and sprint planning sessions.</li>
-        </ul>
-        </li>
-        <li><p><b>Smart Internz (Externship)</b>
-          <br>
-          <b>AI & ML Intern | May 2019 - June 2019</b>
-        </p>
-        <ul>
-          <li>Internship focused on AI & ML technologies.</li>
-          <li>Hands-on experience with Python modules: numpy, pandas, matplotlib, seaborn, etc.</li>
-          <li>Worked on Automatic Number Plate Recognition with IBM Cloud project.</li>
-        </ul>
-        </li>
-        </ul>
-
-        <h4 id="skills">TECHNICAL SKILLS</h4>
-        <ul>
-            <li><b>Front End Web Development -</b> HTML, CSS, JavaScript/ES6,jQuery,Bootstrap,
-             WordPress, Wix, JSON, XML.
-            </li>
-            <li><b>Back End Web Development -</b> Node.js, C#, REST API.</li>
-            <li><b>Programming Languages -</b> Python, Java, C, C#, JavaScript/ES6, SQL, R, MATLAB,
-                HTML, CSS</li>
-            <li><b>DevOps -</b> Jenkins, Docker, Kubernetes, CI/CD</li>
-            <li><b>Mobile Development -</b> Android native
-                IDE -</b> Visual Studio Code, Visual Studio, Android Studio</li>
-            <li><b>Database Development -</b> Microsoft SQL Server, MySQL, MongoDB, PostgreSQL</li>
-            <li><b>Other Skills -</b> Test-Driven Development,Git,UI
-                and UX Design and prototyping (Figma, Adobe XD), Project Management</li>
-        </ul>
-
-        <!--<button id="downloadPdfBtn" >Download Resume</button>-->
-
-        
-    </div>
+    <div id="parentDiv"></div>
     <footer>
-        <p class="footer-content">&copy; 2025 VENKATA SAI NADELLA. All rights reserved.</p>
+      <p class="footer-content">
+        &copy; 2025 VENKATA SAI NADELLA. All rights reserved.
+      </p>
     </footer>
-    <script src="theme.js"></script>
-</body>
 
+    <!-- Accent Color Picker Modal -->
+    <div id="accentColorModal" class="modal">
+      <div class="modal-content">
+        <label for="accentColorPicker" class="modal-section-title"
+          >Select custom accent color</label
+        >
+        <input type="color" id="accentColorPicker" />
+        <p class="modal-section-title">Accent colors</p>
+        <div id="accentColorSwatches">
+          <button
+            class="accent-swatch"
+            style="background: #f25050"
+            title="#F25050"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #ffb900"
+            title="#FFB900"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #ffd400"
+            title="#FFD400"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #92c353"
+            title="#92C353"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #1db954"
+            title="#1DB954"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #00b7c3"
+            title="#00B7C3"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #0099bc"
+            title="#0099BC"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #3a96dd"
+            title="#3A96DD"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #8764b8"
+            title="#8764B8"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #ff8c00"
+            title="#FF8C00"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #e74856"
+            title="#E74856"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #0078d7"
+            title="#0078D7"
+          ></button>
+          <button
+            class="accent-swatch"
+            style="background: #7a7574"
+            title="#7A7574"
+          ></button>
+        </div>
+        <button id="closeAccentModal">Close</button>
+      </div>
+    </div>
+  </body>
 </html>
