@@ -1,5 +1,5 @@
 // This script loads profile data from profileData.json and injects it into #parentDiv
-fetch("profileData.json")
+fetch("assets/json/profileData.json")
   .then((response) => response.json())
   .then((data) => {
     const parentDiv = document.getElementById("parentDiv");
