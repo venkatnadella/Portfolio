@@ -40,8 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = document.getElementById(targetId);
       if (target) {
         e.preventDefault();
-        const y = target.getBoundingClientRect().top + window.pageYOffset - 100;
-        window.scrollTo({ top: y, behavior: "smooth" });
+        if (target.getBoundingClientRect().width < 480) {
+          const y =
+            target.getBoundingClientRect().top + window.pageYOffset - 100;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        } else if (target.getBoundingClientRect().width >= 480) {
+          const y =
+            target.getBoundingClientRect().top + window.pageYOffset - 50;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
       }
     });
   });
@@ -49,10 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
 // Clicking a section link in the navbar opens the corresponding accordion if it is not already open.
 document.addEventListener("DOMContentLoaded", function () {
   const sectionLinks = [
-    { id: "skills", selector: 'a[href="#home"]' },
+    { id: "home", selector: 'a[href="#home"]' },
     { id: "experience", selector: 'a[href="#experience"]' },
     { id: "education", selector: 'a[href="#education"]' },
     { id: "projects", selector: 'a[href="#projects"]' },
+    { id: "skills", selector: 'a[href="#skills"]' },
   ];
   sectionLinks.forEach(({ id, selector }) => {
     const link = document.querySelector(selector);

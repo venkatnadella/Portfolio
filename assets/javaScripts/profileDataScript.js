@@ -6,9 +6,9 @@ fetch("assets/json/profileData.json")
     if (!parentDiv) return;
     // Profile Header
     let html = `
-      <div id = "home" class="flexbox-container">
+      <div id="home" class="flexbox-container">
         <div class="flexbox-container2">
-          <h1 class="header1" id="home">${data.name}</h1>
+          <h1 class="header1" >${data.name}</h1>
           <h2 class="header2">${data.title}</h2>
         </div>
         <div class="flexbox-container2">
