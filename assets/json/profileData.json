@@ -2,13 +2,24 @@
   "name": "VENKATA SAI NADELLA",
   "title": "Data Analyst/Engineer",
   "profileImage": "assets/img/venkat_muskoka_image-removebg-preview.png",
-  "email": "venkatasainadella85@gmail.com",
-  "phone": "+16478728327",
-  "location": { "city": "Toronto", "province": "Ontario" },
+  "contact": {
+    "email": "venkatasainadella85@gmail.com",
+    "phone": "+16478728327",
+    "linkedin": "https://www.linkedin.com/in/venkata-sai-nadella/"
+  },
+  "location": {
+    "current": {
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    "previous": {
+      "city": "Vijayawada",
+      "country": "India"
+    }
+  },
   "github": "https://github.com/venkatnadella",
-  "linkedin": "https://www.linkedin.com/in/venkata-sai-nadella/",
   "summary": "Dynamic professional with a strong foundation in mathematics, coding languages, and critical thinking, seeking challenging opportunities. Proficient in visualization, analytics, and statistics, with a passion for learning new technologies. Known for fostering great empathy and exhibiting strong team-playing behavior. Eager to contribute valuable skills and drive impactful results.",
-  "skills": [
+  "technicalSkills": [
     {
       "title": "Front End Web Development",
       "skills": ["HTML", "CSS", "JavaScript/ES6","jQuery","Bootstrap","WordPress", "Wix", "JSON", "XML"]
@@ -42,7 +53,7 @@
       "skills": [ "Test-Driven Development", "Git", "UI and UX Design and prototyping (Figma, Adobe XD and InVision)", "Project Management"]
     }
   ],
-  "experience": [
+  "professionalExperience": [
     {
       "companyName": "Phenom People",
       "city": "Hyderabad",
@@ -92,7 +103,8 @@
       "institutionName": "Loyalist College in Toronto",
       "province": "Ontario",
       "country": "Canada",
-      "period": "May 2023 - December 2024",
+      "startDate": "May 2023",
+      "endDate": "December 2024",
       "grade" : "83.5%",
       "remarks": "Dean's List of Excellence"
     },
@@ -101,7 +113,8 @@
       "institutionName": "Seshadri Rao Gudlavalleru Engineering College",
       "province": "Andhra Pradesh",
       "country": "India",
-      "period": "August 2018 - May 2022",
+      "startDate": "August 2018",
+      "endDate": "May 2022",
       "grade": "9.21 CGPA",
       "remarks": "Best Outgoing Male in Academics"
     }
@@ -111,7 +124,7 @@
       "name": "Student Support Chatbot (Chatflix)",
       "description": "RAG-based chatbot for Loyalist College and Toronto Business College.",
       "techStack": ["Python", "Moodle Plugin", "Web Portal", "RAG", "LangChain", "LLMs", "PostgreSQL", "Docker", "GitHub"],
-      "link": "https://github.com/ReoJefton/ReoSocial",
+      "link": "",
       "details": [
         "Built a RAG-based chatbot to provide students with information about college policies.",
         "Retrieves relevant policies based on student queries and provides customized responses.",
@@ -129,7 +142,7 @@
       "name": "Enhancing Medical Data Security Using NTRU Algorithm and Steganography",
       "description": "Python GUI for medical data security.",
       "techStack": ["Python", "Cryptography", "Steganography", "Tkinter"],
-      "link": "https://nipc.in/", 
+      "link": "", 
       "details": [
         "Developed a custom Python GUI with cryptographic functionalities for securing medical records.",
         "Implemented NTRU algorithm for encryption and decryption of medical data.",
@@ -145,7 +158,7 @@
       "name": "Automatic Number Plate Recognition with IBM Cloud",
       "description": "Web app for vehicle number plate recognition",
       "techStack": ["Python Flask", "Rapid API", "Web Development"],
-      "link": "https://github.com/ReoJefton/InstaROI-NetCoreWeb",
+      "link": "",
       "details": [
         "Created a website for public use of number plate recognition software.",
         "Integrated Rapid API for image processing and number plate recognition.",
@@ -159,7 +172,7 @@
       "name": "VIRTUAL LABS for Mechanics of Solid Lab",
       "description": "Simulated civil engineering labs.",
       "techStack": ["HTML", "SVG", "HTML Canvas", "CSS", "JavaScript", "Web Development"],
-      "link": "https://github.com/reojefton/WellBeings-NetCoreApp",
+      "link": "",
       "details": [
         "Developed virtual labs for users to simulate practical civil labs on their devices.",
         "Created a web application using SVG and HTML canvas for interactive simulations.",
@@ -176,7 +189,7 @@
       "name": "Pocket Dynamos Portal",
       "description": "Web portfolio for rising local cricket club.",
       "techStack": ["HTML5", "CSS3", "JavaScript", "GitHub"],
-      "link": "https://venkatnadella.github.io/Pocket-Dynamos",
+      "link": "",
       "details": [
         "Developed a web portal for a local cricket club to showcase players, teams, matches, and merchandise.",
         "Designed and implemented the portal using HTML5, CSS3, and JavaScript.",
