@@ -1,10 +1,67 @@
 /* Accent color variable */
 :root {
+
+    /* --accent-color: #04AA6D; */
+    --accent-color: #1DB954;
+
     /* --accent-green: #04AA6D; */
     --accent-green: #1DB954;
+    /* --theme-background-color: #181818; */
+    --theme-background-color: #f4f4f4;
+    --theme-background-color-dark: #101010;
+    /* --color-text: #000000; */
+    --color-text: #1f1f1f;
+    --color-text-dark: #e7e9ea;
+
+    /* --body-bg: #f3f3f3;
+    --body-bg-dark: #101010; */
 
     --modal-bg: rgba(0, 0, 0, 0.3);
     --modal-content-bg: #fff;
+    --modal-bg-dark: rgba(0, 0, 0, 0.7);
+    --modal-content-bg-dark: #222;
+
+    --outline-border-radius: 8px;
+    --border-radius: 8px;
+    --layout-width: calc(100% - 100px);
+    --max-width: 1996px;
+
+    /* border-radius: var(--outline-border-raduis, var(--border-raduis)); */
+
+    --card-radius: var(--outline-border-radius, var(--border-radius));
+    --card-bg: #fff;
+    --card-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    /* --card-shadow: 0 0px 0px rgba(0, 0, 0, 0.08); */
+
+    --card-shadow-dark: 0 2px 16px rgba(255, 255, 255, 0.08);
+    /* --card-shadow-dark: 0 0px 0px rgba(255, 255, 255, 0.08); */
+    /* --card-shadow-dark: 0 2px 16px rgba(249, 247, 247, 0.08); */
+    --card-shadow-hover: 0 8px 20px rgba(0, 0, 0, 0.2), 0 4px 16px rgba(255, 255, 255, 0.08);
+    --card-shadow-dark-hover: 0 8px 20px rgba(255, 255, 255, 0.2), 0 4px 16px rgba(0, 0, 0, 0.08);
+    /* --card-bg-dark: #222; */
+    --card-bg-dark: #000000;
+    /* --card-bg-dark: #262626; */
+
+    --nav-bg: #fff;
+    --nav-text: #000000;
+    --nav-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+    --nav-bg-dark: #000000 !important;
+    --nav-text-dark: #fff !important;
+    /* --nav-active-bg: #f3f3f3; */
+
+    /* --section-title: #222; */
+    /* --footer-bg: #fff; */
+    /* --footer-text: #222; */
+
+    --btn-bg: var(--accent-color);
+    --btn-text: #fff;
+    --btn-radius: 8px;
+    --btn-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+    --input-bg: #f9f9f9;
+    --input-border: #e5e5e5;
+    --input-radius: 8px;
+    --input-text: #222;
 }
 
 /* Import Roboto font from Google Fonts */
@@ -17,17 +74,57 @@ body {
     overflow-x: hidden;
     word-break: break-word;
     min-height: 100vh;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    line-height: 1.428;
+    font-family: 'Roboto',
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--color-text);
+    /* line-height: 1.428; */
 }
 
-html {
-    /* scroll-behavior: smooth;
-    scroll-padding-top: 90px; */
+/* html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px; 
+} */
+
+body {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #f4f4f4;
+}
+
+/* Inline SVG icon styles */
+.contact-info .icon-wrapper {
+    display: inline-flex;
+    width: 1.15em;
+    height: 1.15em;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.contact-info .icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    display: inline-block;
 }
 
 a {
-    color: #000000;
+    color: var(--color-text);
+    text-decoration: none;
+    /* font-weight: 500; */
+    /* transition: color 0.2s; */
+}
+
+a:hover {
+    color: var(--accent-color);
+    /* transition: color 0.2s; */
+    /* color: var(--nav-text); */
+    text-decoration: underline;
 }
 
 /* Responsive image scaling */
